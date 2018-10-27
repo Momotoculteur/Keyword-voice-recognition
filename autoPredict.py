@@ -43,16 +43,15 @@ def main():
 def record(format, channels, rate, chunk, recordTime,soundPath, soundSize, modelPath, labels):
     """
     # Fonction permettant d'enregistrer notre voix pour lancer plusieurs tests à la suite
-    :param format:
-    :param channels:
-    :param rate:
-    :param chunk:
-    :param recordTime:
-    :param soundPath:
-    :param soundSize:
-    :param modelPath:
-    :param labels:
-    :return:
+    :param format: taille de chaque sample
+    :param channels: nombre de canaux
+    :param rate: taux d'echantillonage
+    :param chunk: nombre de frame dans le buffer
+    :param recordTime: temps d'enregistrement
+    :param soundPath: chemin ou on va record notre audio
+    :param soundSize: taille du spectre converti en image depuis notre .wav
+    :param modelPath: chemin ou est notre modèle enregistré
+    :param labels: nos classes de prédictions
     """
 
     while True:

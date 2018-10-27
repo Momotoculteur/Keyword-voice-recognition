@@ -25,7 +25,6 @@ def generateMatrix(model, datasetTestPath, imageSize, destinationMatrix):
 	:param datasetTestPath: chemin du dataset contenant nos images de test
 	:param imageSize: definit la taille de l'ensemble de nos images
 	:param destinationMatrix: définit le chemin ou va être sauvegardé notre matrice sous format d'image
-	:return:
 	"""
 
 	#Les tableaux contenanrt les predictions

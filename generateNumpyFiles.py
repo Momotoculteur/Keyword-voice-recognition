@@ -15,10 +15,10 @@ import matplotlib.pyplot as plt
 def launchConversion(pathData, pathNumpy, resizeImg, imgSize):
     """
     # Permet de lancer la conversion des images en tableau numpy
-    :param pathData: chemin ou sont les
-    :param pathNumpy:
-    :param resizeImg:
-    :param imgSize:
+    :param pathData: chemin ou sont le jeu de données
+    :param pathNumpy: chemin de destination ou on va sauvegarder nos tableaux
+    :param resizeImg: booleen pour permettre de recouper les images ou non
+    :param imgSize: on taille les images à une même taille commune
     """
 
     #Pour chaque classe
